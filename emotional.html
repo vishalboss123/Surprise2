@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One Last Feeling • Our Story</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* =========================
+   EMOTIONAL PAGE
+========================= */
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Love rain background */
+.love-rain {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.love-drop {
+    position: absolute;
+    top: -60px;
+    color: rgba(255, 150, 190, 0.18);
+    font-size: 11px;
+    font-weight: 500;
+    white-space: nowrap;
+    animation: loveFall linear infinite;
+    text-shadow: 0 0 8px rgba(255, 80, 150, 0.15);
+}
+
+@keyframes loveFall {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(110vh);
+        opacity: 0;
+    }
+}
+
+/* Main content stays above rain */
+.emotional-content {
+    position: relative;
+    z-index: 5;
+}
+
+.emotional-card {
+    backdrop-filter: blur(8px);
+    background: rgba(10, 5, 15, 0.78);
+}
+
+.emotional-text {
+    line-height: 2;
+    font-size: 17px;
+    text-align: left;
+}
+
+.emotional-text p {
+    margin: 0 0 24px;
+}
+
+.emotional-highlight {
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffd0e2;
+    margin: 30px 0;
+}
+
+.ending {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.ending-heart {
+    font-size: 42px;
+    animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* Soft floating glow */
+.glow-orb {
+    position: fixed;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(255, 80, 160, 0.08);
+    filter: blur(50px);
+    pointer-events: none;
+    z-index: 1;
+    animation: orbMove 8s ease-in-out infinite alternate;
+}
+
+.glow-one {
+    top: 15%;
+    left: -80px;
+}
+
+.glow-two {
+    bottom: 10%;
+    right: -80px;
+    animation-delay: 2s;
+}
+
+@keyframes orbMove {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+@media (max-width: 600px) {
+    .emotional-text {
+        font-size: 16px;
+        line-height: 1.9;
+    }
+
+    .emotional-highlight {
+        font-size: 27px;
+    }
+
+    .love-drop {
+        font-size: 9px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- =========================
+     BACKGROUND LOVE RAIN
+========================= -->
+
+<div class="love-rain">
+
+    <span class="love-drop" style="left:2%; animation-duration:11s; animation-delay:0s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:9%; animation-duration:14s; animation-delay:3s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:16%; animation-duration:12s; animation-delay:1s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:24%; animation-duration:16s; animation-delay:5s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:31%; animation-duration:13s; animation-delay:2s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:39%; animation-duration:15s; animation-delay:6s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:47%; animation-duration:11s; animation-delay:4s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:55%; animation-duration:17s; animation-delay:1s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:63%; animation-duration:13s; animation-delay:7s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:71%; animation-duration:15s; animation-delay:3s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:79%; animation-duration:12s; animation-delay:8s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:87%; animation-duration:16s; animation-delay:2s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:94%; animation-duration:14s; animation-delay:6s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <!-- Extra drops -->
+    <span class="love-drop" style="left:5%; animation-duration:18s; animation-delay:9s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:20%; animation-duration:15s; animation-delay:11s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:36%; animation-duration:17s; animation-delay:10s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:52%; animation-duration:14s; animation-delay:12s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:68%; animation-duration:18s; animation-delay:9s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+    <span class="love-drop" style="left:84%; animation-duration:16s; animation-delay:13s;">
+        I LOVE YOU RITVI ❤️
+    </span>
+
+</div>
+
+<!-- Soft background glow -->
+<div class="glow-orb glow-one"></div>
+<div class="glow-orb glow-two"></div>
+
+<a class="back emotional-content" href="shayari.html">← Back</a>
+
+<main class="page emotional-content">
+
+<section class="card fade emotional-card">
+
+    <div class="emotional-text">
+
+        <div class="heart">❤️‍🩹</div>
+
+        <div class="eyebrow">
+            One Last Feeling
+        </div>
+
+        <h1 class="title">
+            Paggli… ❤️
+        </h1>
+
+        <p>
+            Paggli, shayad main perfect nahi hoon…
+            <br>
+            shayad meri kuch baatein tumhe hurt karti hain,
+            <br>
+            shayad main har baar apne dil ki baat sahi tarah keh nahi pata…
+        </p>
+
+        <p>
+            Lekin ek baat sach hai—
+            <br>
+            jo feelings tumhare liye hain, woh jhooth nahi hain. ❤️
+        </p>
+
+        <p>
+            11 September ko jab hum mile the,
+            <br>
+            tab mujhe nahi pata tha ki ek simple si mulaqat
+            <br>
+            meri life ki itni beautiful story ban jayegi…
+        </p>
+
+        <p>
+            Main tumhe har cheez nahi bata pata,
+            <br>
+            har feeling explain nahi kar pata,
+            <br>
+            kyunki kabhi-kabhi ghar ke pressure aur situations
+            <br>
+            mujhe apne emotions andar rakhne par majboor kar dete hain.
+        </p>
+
+        <p>
+            Agar kabhi tumhe laga ho ki main badal gaya hoon,
+            <br>
+            toh bas itna samajhna—
+            <br>
+            feelings badli nahi hain, bas situations difficult hui hain. ❤️‍🩹
+        </p>
+
+        <p>
+            Main maanta hoon, mujhse mistakes hoti hain.
+            <br>
+            Main bura insaan nahi banna chahta,
+            <br>
+            main bas ek aisa insaan hoon jo tumhe sach mein care karta hai
+            <br>
+            aur har din khud ko better karna seekh raha hai.
+        </p>
+
+        <p>
+            Tum meri story ka koi temporary chapter nahi ho…
+            <br>
+            tum woh chapter ho jise main khatam nahi karna chahta. ❤️
+        </p>
+
+        <p>
+            11 September hamari beginning thi…
+            <br>
+            aur aaj bhi main chahta hoon ki
+            <br>
+            hamari story ke aage ke pages
+            <br>
+            hum dono milkar likhein. 🥹❤️
+        </p>
+
+        <p>
+            Agar meri kisi baat se kabhi tum hurt hui ho,
+            <br>
+            toh sorry…
+            <br>
+            aur agar kabhi meri khamoshi ne tumhe confuse kiya ho,
+            <br>
+            toh uske peeche pyaar ki kami nahi thi.
+            <br>
+            Bas main har baar apne dil ki baat keh nahi pata tha. ❤️‍🩹
+        </p>
+
+        <!-- Extra emotional continuation -->
+
+        <div class="emotional-highlight">
+            Kabhi-kabhi words kam pad jaate hain… 🥹❤️
+        </div>
+
+        <p>
+            Shayad main har baar tumhe woh sab nahi bata pata
+            jo mere dil mein hota hai…
+            <br>
+            lekin iska matlab ye kabhi nahi tha
+            ki tum mere liye important nahi ho.
+        </p>
+
+        <p>
+            Kuch feelings aisi hoti hain
+            jinke liye perfect words milna mushkil hota hai.
+            <br>
+            Bas ek naam yaad aata hai…
+            <br>
+            aur woh naam tumhara hai. ❤️
+        </p>
+
+        <p>
+            Hamari journey mein sab kuch easy nahi raha.
+            <br>
+            Kabhi hasi thi,
+            kabhi chhoti si narazgi,
+            <br>
+            kabhi misunderstanding,
+            kabhi silence…
+            <br>
+            lekin har phase ne hume kuch na kuch sikhaya.
+        </p>
+
+        <p>
+            Maine tumse ye seekha
+            ki kisi ko care karna sirf words bolna nahi hota.
+            <br>
+            Kabhi samajhna hota hai,
+            kabhi patiently sunna hota hai,
+            <br>
+            aur kabhi apni mistake accept karke better banna hota hai.
+        </p>
+
+        <p>
+            Main ye nahi keh raha ki future mein kabhi mistake nahi hogi…
+            <br>
+            lekin main itna zaroor chahta hoon
+            ki har mistake ke baad
+            <br>
+            main pehle se thoda better banun. ❤️
+        </p>
+
+        <p>
+            Tumhare saath jo memories bani hain,
+            <br>
+            woh mere liye sirf chats ya screenshots nahi hain.
+            <br>
+            Woh meri life ke woh moments hain
+            jinhe main smile ke saath yaad karta hoon. 🥹❤️
+        </p>
+
+        <p>
+            YouTube par ek simple si mulaqat se lekar
+            <br>
+            Telegram ki endless chats tak,
+            <br>
+            WhatsApp ki conversations,
+            Instagram ki memories,
+            <br>
+            aur Snapchat ke funny moments tak…
+            <br>
+            pata hi nahi chala kab tum itni important ban gayi.
+        </p>
+
+        <div class="emotional-highlight">
+            Aur shayad isi ko toh kahani kehte hain… ❤️
+        </div>
+
+        <p>
+            Ek aisi kahani jiska beginning hume yaad hai,
+            <br>
+            jiske beech mein hazaaron memories hain,
+            <br>
+            aur jiska future abhi bhi blank pages se bhara hua hai.
+        </p>
+
+        <p>
+            Un pages par abhi bahut kuch likhna baaki hai…
+            <br>
+            naye jokes,
+            naye moments,
+            naye memories,
+            <br>
+            aur bahut saari hasi. ❤️✨
+        </p>
+
+        <p>
+            Aaj jab 11 September ko main peeche dekhta hoon,
+            <br>
+            toh ek hi thought baar-baar aata hai—
+            <br><br>
+            <strong>
+                Achha hua us din hum mile the. 🥹❤️
+            </strong>
+        </p>
+
+        <p>
+            Agar woh ek chhoti si mulaqat nahi hoti,
+            <br>
+            toh shayad ye beautiful journey bhi nahi hoti.
+            <br>
+            Na itni memories hoti,
+            <br>
+            na itne moments,
+            <br>
+            aur na hamari ye story. ❤️
+        </p>
+
+        <p>
+            Isliye 11 September mere liye sirf calendar ki ek date nahi hai.
+            <br>
+            Ye woh date hai jise dekhkar
+            <br>
+            mujhe hamari beginning yaad aati hai.
+        </p>
+
+        <p>
+            Aur agar tum kabhi socho
+            ki tum meri story mein kitni important ho…
+            <br>
+            toh bas hamari purani memories ko yaad kar lena.
+            <br>
+            Shayad unmein hi tumhe answer mil jayega. ❤️‍🩹
+        </p>
+
+        <p>
+            Main bas itna chahta hoon
+            ki hum apni story ko perfect banane ke pressure mein na rahein.
+            <br>
+            Bas real rahein,
+            ek-doosre ko samajhne ki koshish karein,
+            <br>
+            aur jo beautiful moments milen
+            unhe dil se enjoy karein. ❤️
+        </p>
+
+        <p>
+            Kyunki perfect story se zyada beautiful
+            woh story hoti hai
+            jisme do log mistakes ke baad bhi
+            <br>
+            ek-doosre ko samajhna seekhte hain.
+        </p>
+
+        <div class="emotional-highlight">
+            Hamari story ka next page… abhi likhna baaki hai. 🥹❤️
+        </div>
+
+        <p>
+            Aur ab…
+            <br>
+            main tumhe ek last cheez dikhana chahta hoon…
+        </p>
+
+        <p>
+            Shayad ye page khatam ho raha hai,
+            <br>
+            lekin hamari story nahi.
+            <br>
+            Kyunki kuch stories ka ending nahi hota…
+            <br>
+            unke bas naye chapters start hote hain. ❤️✨
+        </p>
+
+        <p>
+            Toh jo kuch bhi peeche reh gaya,
+            <br>
+            usse ek beautiful memory ki tarah rakhenge.
+            <br>
+            Aur jo aage aayega,
+            <br>
+            usse milkar ek nayi memory banayenge. 🫶🏻❤️
+        </p>
+
+        <div class="ending">
+
+            <div class="ending-heart">
+                ❤️
+            </div>
+
+            <div class="emotional-highlight">
+                Are you ready for the Final Surprise? 🥹❤️✨
+            </div>
+
+            <a class="btn" href="final.html">
+                ✨ UNLOCK FINAL SURPRISE ✨
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
