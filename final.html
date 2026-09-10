@@ -1,14 +1,477 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Final Surprise • Our Story</title><link rel="stylesheet" href="style.css"></head><body><a class="back" href="index.html">← Home</a><main class="page"><section class="card fade">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Final Surprise • Our Story</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+/* =========================
+   FINAL SURPRISE EXTRA
+========================= */
+
+body {
+    overflow-x: hidden;
+}
+
+.final-extra {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.final-extra p {
+    line-height: 1.9;
+    margin: 22px 0;
+}
+
+.love-title {
+    font-family: Caveat, cursive;
+    font-size: 36px;
+    color: #ffd0e2;
+    margin: 30px 0 15px;
+    animation: softGlow 2s ease-in-out infinite alternate;
+}
+
+.love-shayari {
+    font-family: Caveat, cursive;
+    font-size: 27px;
+    line-height: 1.65;
+    color: #ffe1ec;
+    margin: 30px 0;
+}
+
+.love-message {
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+.big-love {
+    font-family: Caveat, cursive;
+    font-size: 42px;
+    color: #ffd0e2;
+    margin: 35px 0;
+    animation: heartPulse 1.8s infinite;
+}
+
+.love-line {
+    opacity: 0;
+    animation: appearLine 1s ease forwards;
+}
+
+.love-line:nth-child(1) { animation-delay: .2s; }
+.love-line:nth-child(2) { animation-delay: .7s; }
+.love-line:nth-child(3) { animation-delay: 1.2s; }
+.love-line:nth-child(4) { animation-delay: 1.7s; }
+.love-line:nth-child(5) { animation-delay: 2.2s; }
+
+@keyframes softGlow {
+    from {
+        text-shadow: 0 0 5px rgba(255,100,160,.2);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255,100,160,.7);
+    }
+}
+
+@keyframes heartPulse {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+@keyframes appearLine {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Floating hearts */
+.final-hearts {
+    font-size: 30px;
+    margin: 30px 0;
+    letter-spacing: 8px;
+    animation: floatHearts 3s ease-in-out infinite;
+}
+
+@keyframes floatHearts {
+    0%,100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.final-ending {
+    margin-top: 45px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+
+@media (max-width:600px) {
+    .love-title {
+        font-size: 32px;
+    }
+
+    .love-shayari {
+        font-size: 24px;
+    }
+
+    .love-message {
+        font-size: 19px;
+    }
+
+    .big-love {
+        font-size: 36px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<a class="back" href="index.html">← Home</a>
+
+<main class="page">
+
+<section class="card fade">
+
 <div class="final">
+
 <div class="heart">💖</div>
+
 <div class="eyebrow">Final page unlocked</div>
+
 <h1 class="title">The Story Continues…</h1>
-<p class="subtitle">11 September ek date nahi — ek yaad hai. Ek aisi yaad jahan se messages, hasi, memories aur “hum” ki kahani shuru hui. 🥹❤️</p>
-<div class="quote">“Kahani khatam nahi hui…<br>abhi toh aur memories banana baaki hai.” ✨</div>
-<p>🌸 YouTube ne milaya<br>💬 Chats ne kareeb kiya<br>📸 Memories ne sambhala<br>❤️ Aur waqt ne kahani bana di</p>
-<p style="font-family:Caveat;font-size:30px;color:#ffd0e2">Happy Meet Anniversary to us. 🫶🏻🥹<br>11 September — The day my favourite story began. ❤️✨</p>
-<div style="font-size:34px;margin:25px">❤️ ✨ 💗 🌸 🥹 🫶🏻 💖</div>
-<a class="btn" href="index.html">↺ READ OUR STORY AGAIN</a>
-<div class="tiny">Tip: replace images/photo01.svg … photo20.svg with your own photos, keeping the same filenames (or update the image names in gallery.html).</div>
+
+<p class="subtitle">
+11 September ek date nahi — ek yaad hai.
+Ek aisi yaad jahan se messages, hasi, memories aur “hum” ki kahani shuru hui. 🥹❤️
+</p>
+
+<div class="quote">
+“Kahani khatam nahi hui…<br>
+abhi toh aur memories banana baaki hai.” ✨
 </div>
-</section></main><script src="script.js"></script></body></html>
+
+<p>
+🌸 YouTube ne milaya<br>
+💬 Chats ne kareeb kiya<br>
+📸 Memories ne sambhala<br>
+❤️ Aur waqt ne kahani bana di
+</p>
+
+<p style="font-family:Caveat;font-size:30px;color:#ffd0e2">
+Happy Meet Anniversary to us. 🫶🏻🥹<br>
+11 September — The day my favourite story began. ❤️✨
+</p>
+
+<div style="font-size:34px;margin:25px">
+❤️ ✨ 💗 🌸 🥹 🫶🏻 💖
+</div>
+
+<a class="btn" href="index.html">
+↺ READ OUR STORY AGAIN
+</a>
+
+<div class="tiny">
+Tip: replace images/photo01.svg … photo20.svg with your own photos,
+keeping the same filenames (or update the image names in gallery.html).
+</div>
+
+
+<!-- =================================
+     EXTRA FINAL SURPRISE STARTS HERE
+================================= -->
+
+<div class="final-extra">
+
+<h2 class="love-title">
+Paggli… ek last baat ❤️
+</h2>
+
+<p class="love-line">
+Agar tum ye page yahan tak padh rahi ho,
+toh shayad tum samajh gayi hogi
+ki ye sirf ek website nahi thi…
+</p>
+
+<p class="love-line">
+Ye hamari chhoti si duniya thi,
+jisme har page ke andar
+hamari ek memory chhupi hui thi. 🥹❤️
+</p>
+
+<p class="love-line">
+Ek page YouTube ke naam,
+ek page hamari chats ke naam,
+ek page un saari memories ke naam…
+aur aaj ye last page
+sirf tumhare naam. ❤️
+</p>
+
+<div class="love-shayari">
+
+“Ek mulaqat se shuru hui thi kahani,<br>
+pata nahi kab ban gayi zindagi ki nishani. ❤️<br><br>
+
+Kabhi hasi mili, kabhi thodi si narazgi,<br>
+kabhi endless chats, kabhi chhoti si khamoshi. 🥹<br><br>
+
+Par har mod par ek baat same rahi,<br>
+tumhari jagah mere dil mein kabhi kam nahi hui. ❤️‍🩹<br><br>
+
+Waqt badalta raha, platforms badalte rahe,<br>
+par hamari memories har din aur gehri hoti rahe. ✨<br><br>
+
+Aur 11 September jab bhi aayega,<br>
+dil sabse pehle tumhe yaad karega. ❤️”
+
+</div>
+
+<h2 class="love-title">
+I Love You, My Paggli ❤️
+</h2>
+
+<p class="love-message">
+
+Main tumse pyaar karta hoon, paggli. ❤️<br>
+Aaj bhi karta hoon,<br>
+kal bhi karta tha,<br>
+aur aage bhi karta rahunga. 🥹❤️
+
+</p>
+
+<p class="love-message">
+
+I love my jaan. ❤️<br>
+I love you my paggli. 🥹<br>
+I love you so much, my shona. 🫶🏻<br>
+I love you meri jaan. ❤️<br>
+I love you more than these words can ever explain. ✨
+
+</p>
+
+<div class="big-love">
+I LOVE YOU RITVI ❤️🥹
+</div>
+
+<p>
+Tum meri life ki woh beautiful memory ho
+jise main baar-baar yaad karke smile karna chahta hoon. ❤️
+</p>
+
+<p>
+Tumhare saath har moment special lagta hai—
+chahe woh ek simple sa “hi” ho,
+ek random joke ho,
+late-night conversation ho,
+ya bas ek chhota sa message. 🥹❤️
+</p>
+
+<p>
+Kabhi-kabhi sochta hoon,
+ek normal si YouTube meeting
+itni beautiful story ka beginning kaise ban gayi…
+</p>
+
+<p>
+Phir answer milta hai—
+shayad kuch log life mein accidentally milte hain,
+lekin memories ban jaati hain intentionally. ❤️✨
+</p>
+
+<div class="love-shayari">
+
+“Tum mili toh kahani mili,<br>
+kahani mili toh yaadein mili,<br>
+aur yaadon mein sabse khoobsurat<br>
+ek naam mila — RITVI. ❤️”
+
+</div>
+
+<div class="final-hearts">
+❤️ 💗 🥹 ✨ 🫶🏻 🌸 💖
+</div>
+
+<h2 class="love-title">
+Hamari Story… 📖❤️
+</h2>
+
+<p>
+11 September se lekar aaj tak,
+hamari story mein bahut saare pages aaye.
+</p>
+
+<p>
+Kuch pages funny the 😂,
+kuch emotional the 🥹,
+kuch mein arguments the,
+aur kuch pages sirf pyaar se bhare hue the. ❤️
+</p>
+
+<p>
+Lekin sabse beautiful baat ye hai
+ki book abhi close nahi hui…
+</p>
+
+<p>
+<strong>
+Hamari story ka next chapter abhi baaki hai. ❤️
+</strong>
+</p>
+
+<p>
+Aage aur memories banengi,
+aur moments aayenge,
+aur bahut saari hasi hogi,
+aur shayad kuch aur cute fights bhi. 😂❤️
+</p>
+
+<p>
+Aur jab kabhi hum peeche mudkar dekhenge,
+toh shayad hum dono ek hi baat kahenge—
+</p>
+
+<div class="love-shayari">
+
+“Achha hua us din hum mile the…<br>
+warna meri favourite story<br>
+kabhi shuru hi nahi hoti.” 🥹❤️
+
+</div>
+
+<h2 class="love-title">
+For My Jaan… 🫶🏻
+</h2>
+
+<p>
+Paggli, main tumhe perfect promises nahi dunga.
+Bas ek simple si wish hai—
+</p>
+
+<p>
+hamari story mein jitne bhi naye pages aayein,
+woh memories se bhare hon. ❤️
+</p>
+
+<p>
+Tum smile karo,
+main us smile ki wajah banne ki koshish karun.
+</p>
+
+<p>
+Tum khush raho,
+aur hamari story mein
+hamesha naye beautiful moments add hote rahein. 🥹❤️
+</p>
+
+<p>
+Aur agar kabhi life difficult lage,
+toh yaad rakhna—
+hamari story ka koi page
+sirf ek difficult moment se define nahi hota.
+</p>
+
+<p>
+Ek page difficult ho sakta hai,
+lekin poori story beautiful ho sakti hai. ❤️‍🩹
+</p>
+
+<div class="love-shayari">
+
+“Safar chahe jitna bhi lamba ho,<br>
+yaadein saath chalti rahengi…<br>
+aur hamari kahani ke pages<br>
+naye moments se bharte rahenge. ❤️✨”
+
+</div>
+
+<div class="final-ending">
+
+<h2 class="love-title">
+Happy Meet Anniversary, My Paggli ❤️
+</h2>
+
+<p class="love-message">
+
+11 September —<br>
+The day I met you. ❤️<br><br>
+
+The day my favourite story began. 🥹<br><br>
+
+The day YouTube se ek connection bana…<br>
+aur dheere-dheere ek beautiful “hum” bana. ❤️
+
+</p>
+
+<div class="big-love">
+I LOVE YOU SO MUCH, RITVI ❤️🥹🫶🏻
+</div>
+
+<p class="love-message">
+
+I love you my jaan. ❤️<br>
+I love you my paggli. ❤️<br>
+I love you my shona. ❤️<br>
+I love you endlessly. 🥹❤️
+
+</p>
+
+<div class="final-hearts">
+💖 ❤️ 🥹 🫶🏻 ✨ 💗 🌸 ❤️
+</div>
+
+<p style="font-family:Caveat;font-size:30px;color:#ffd0e2">
+
+“Hamari kahani ka ending nahi hai…<br>
+kyunki abhi bahut saare pages<br>
+hum dono ko milkar likhne hain.” ❤️✨
+
+</p>
+
+<div style="font-size:40px;margin:30px 0;">
+❤️ 🥹 🫶🏻 💖 ✨ 🌸 💗
+</div>
+
+<p>
+<strong>
+Happy Meet Anniversary to us. ❤️
+</strong>
+</p>
+
+<p>
+11 September forever special rahega. 🥹❤️
+</p>
+
+<a class="btn" href="index.html">
+❤️ START OUR STORY AGAIN ❤️
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
